@@ -1,0 +1,3 @@
+SELECT AName, Birthplace 
+FROM Artist 
+WHERE EXTRACT(YEAR FROM DateOfBirth) >= 1880 AND EXTRACT(YEAR FROM DateOfBirth) <= 1930 
